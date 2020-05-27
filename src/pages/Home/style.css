@@ -1,0 +1,148 @@
+.home-container .img {
+    display: flex;
+    justify-content: center;
+    height: 380px;
+    margin: 20px;
+}
+
+.home-container .img img{
+    max-width: 97vw;
+    object-fit: cover;
+}
+
+.home-container hr{
+    border: 0.1px solid gray;
+}
+
+.home-container .products{
+    padding: 15px;
+}
+
+.home-container .products .products-card{
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.home-container .products .products-card .card{
+    background-color: lightgrey;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    margin: 20px 20px;
+    height: 270px;
+    width: 250px;
+    transition: all 600ms;
+}
+
+.home-container .products .products-card .card:hover{
+    transform: scale(1.1);
+}
+
+.home-container .products .products-card .card .card-img{
+    height: 200px;
+    width: 250px;
+}
+
+.home-container .products .products-card .card .card-img img{
+    height: 200px;
+    width: 250px;
+}
+
+.home-container .products .products-card .card hr{
+    margin-top: 0;
+    border: 10px solid white;
+}
+
+.home-container .best-seller{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home-container .best-seller .seller-container{
+    height: 250px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .home-container .best-seller .seller-container .seller-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+}
+
+.home-container .best-seller .seller-container .seller-card .card-img{
+    background-color: yellow;
+    height: 60%;
+    width: 60%;
+    border-radius: 80px;
+}
+
+.home-container .best-seller .seller-container .seller-card .card-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 80px;
+} 
+
+.home-container .whoarewe{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-container .whoarewe .whoarewe-container{
+    height: 58vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-container .whoarewe .whoarewe-container .whoarewe-card{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-container .whoarewe .whoarewe-container .whoarewe-card .title{
+    text-align: center;
+}
+
+.home-container .whoarewe .whoarewe-container .whoarewe-card .text{
+    text-align: center;
+}
+
+.home-container .whoarewe .whoarewe-container .whoarewe-card button{
+    height: 40px;
+    width: 140px;
+    border-radius: 8px;
+    background-color: #5F0A87;
+    font-weight: medium;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

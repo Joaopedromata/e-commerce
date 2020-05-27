@@ -1,0 +1,61 @@
+header{
+    height: 70px;
+    background-color: #ffffff;
+}
+header .Header-container{
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+
+header .Header-container .logo{
+    margin: 20px;
+}
+
+header .Header-container .logo img{
+    width: 70px;
+    
+}
+
+header .Header-container .inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 500px;
+}
+
+header .Header-container .inside input{
+    width: 180px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+
+header .Header-container .buy{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50px;
+    margin-right: 10px;
+
+}
+
+header .Header-container .buy .quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5F0A87;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px ;
+}
+
+
+
+header hr{
+    color: #ffffff;
+}

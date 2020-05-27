@@ -1,0 +1,50 @@
+hr{
+    border: 0.1px solid gray;
+}
+
+.footer{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-container{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .footer-container .text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height:100%;
+    width: 50%;
+}
+
+.footer .footer-container .social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 8%;
+}
+
+.footer .footer-container .social .instagram{
+    transition: all 600ms;
+    color: #000;
+}
+
+.footer .footer-container .social .github{
+    transition: all 600ms;
+    color: #000;
+}
+
+.footer .footer-container .social .instagram:hover{
+    transform: scale(1.1);
+}
+
+.footer .footer-container .social .github:hover{
+    transform: scale(1.1);
+}
